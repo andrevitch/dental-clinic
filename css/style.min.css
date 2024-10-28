@@ -1406,7 +1406,8 @@ header {
     .hero-fluid {
         /* background-color: var(--bg); */
         background-color: #556E76;
-        max-height: 41.2rem;
+        /* max-height: 41.2rem; */
+        max-height: 39rem;
         margin-top: 7.2rem;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2155,7 +2156,7 @@ header {
 
     .hero-div {
         position: absolute;
-        bottom: 24%;
+        bottom: 26%;
     }
 
     .hero-div h1 {
