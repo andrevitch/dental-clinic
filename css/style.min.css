@@ -1189,11 +1189,11 @@ header {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        gap: 2rem;
+        gap: 2.4rem;
     }
 
     .footer-col-4 .btns-div {
-        margin-bottom: 3.2rem;
+        margin-bottom: 0;
     }
 
     .footer-col-4 .btns-div {
@@ -1963,7 +1963,7 @@ header {
     }
 
     .btns-div {
-        margin-bottom: .2rem;
+        margin-bottom: 3.2rem;
     }
 
     .btn-div a {
@@ -2726,7 +2726,7 @@ header {
     }
 
     .btns-div {
-        margin-bottom: .2rem;
+        margin-bottom: 3.2rem;
     }
 
     .btn-div a {
