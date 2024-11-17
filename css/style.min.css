@@ -417,7 +417,14 @@ header {
 }
 
 .up-div .pageup img {
-    width: 4.8rem;
+    width: 4rem;
+}
+
+/* Focus/Active  */
+.btn-div a:focus,
+.btn-div a:active {
+    /* outline: none; */
+    border: none;
 }
 
 /* Contact  */
@@ -2044,8 +2051,10 @@ header {
 
     /* Fonts  */
     h1 {
-        font-size: 7.2rem;
-        line-height: 6.8rem;
+        /* font-size: 7.2rem;
+        line-height: 6.8rem; */
+        font-size: 8.8rem;
+        line-height: 8rem;
         margin-bottom: 1.6rem;
     }
 
@@ -2152,11 +2161,12 @@ header {
     /* Hero  */
     .hero-fluid {
         background: url('../img/hero.jpg') no-repeat center center/cover;
+        height: 100vh;
     }
 
     .hero-div {
         position: absolute;
-        bottom: 26%;
+        bottom: 20%;
     }
 
     .hero-div h1 {
