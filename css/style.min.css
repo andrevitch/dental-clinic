@@ -488,6 +488,12 @@ header {
     display: block;
 }
 
+/* Focus/Active  */
+a:focus,
+a:active {
+    border: none;
+}
+
 /* Mobile Dropdown  */
 .show {
     display: block;
