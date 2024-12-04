@@ -503,15 +503,15 @@ a:active {
 
 /* Sections reveal  */
 .section {
-    -webkit-transition: opacity .1s, -webkit-transform .7s;
-    transition: opacity .1s, -webkit-transform .7s;
-    -o-transition: transform .7s, opacity .1s;
-    transition: transform .7s, opacity .1s;
-    transition: transform .7s, opacity .1s, -webkit-transform .7s;
+    -webkit-transition: opacity .1s, -webkit-transform .9s;
+    transition: opacity .1s, -webkit-transform .9s;
+    -o-transition: transform .9s, opacity .1s;
+    transition: transform .9s, opacity .1s;
+    transition: transform .9s, opacity .1s, -webkit-transform .9s;
 }
 
 .section--hidden {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(8rem);
     -ms-transform: translateY(8rem);
     transform: translateY(8rem);
