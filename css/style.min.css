@@ -235,11 +235,12 @@ p {
 .footer-fluid,
 .testimonials-fluid,
 .contact-fluid {
-    background-color: #F5FBFC;
+    background-color: #f5fbfc;
 }
 
 .navbar-fluid {
-    background-color: rgba(var(--white), 1);
+    /* background-color: rgba(var(--white), 1); */
+    background-color: #ffffff;
 }
 
 .footer-sub-fluid {
@@ -388,8 +389,8 @@ header {
     width: 100%;
     /* top: 2rem; */
     z-index: 9;
-    -webkit-box-shadow: 0px 2px 6px 0px rgba(17, 70, 70, 0.26);
-    box-shadow: 0px 2px 6px 0px rgba(17, 70, 70, 0.26);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(17, 70, 70, 0.16);
+    box-shadow: 0px 2px 6px 0px rgba(17, 70, 70, 0.16);
 }
 
 .navbar {
@@ -417,7 +418,7 @@ header {
 }
 
 .up-div .pageup img {
-    width: 4rem;
+    width: 3.2rem;
 }
 
 /* Focus/Active  */
@@ -1290,6 +1291,17 @@ a:active {
     }
 
 
+    /* PageUp  */
+    .up-div .pageup {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    .up-div .pageup img {
+        width: 2.4rem;
+    }
+
+
 }
 
 /* Tablet  */
@@ -2034,6 +2046,16 @@ a:active {
         display: -ms-flexbox;
         display: flex;
         gap: 2.4rem;
+    }
+
+    /* PageUp  */
+    .up-div .pageup {
+        bottom: 3.2rem;
+        right: 3.2rem;
+    }
+
+    .up-div .pageup img {
+        width: 3.6rem;
     }
 
 }
@@ -2815,8 +2837,8 @@ a:active {
 
     /* PageUp  */
     .up-div .pageup {
-        bottom: 4rem;
-        right: 4rem;
+        bottom: 3.2rem;
+        right: 3.2rem;
     }
 }
 
@@ -2958,15 +2980,7 @@ a:active {
         display: none;
     }
 
-    /* PageUp  */
-    .up-div .pageup {
-        bottom: 2rem;
-        right: 2rem;
-    }
 
-    .up-div .pageup img {
-        width: 4rem;
-    }
 }
 
 /* Menu Links/Blog Posts/Testimonials  */
