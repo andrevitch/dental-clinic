@@ -222,6 +222,10 @@ p {
     color: rgba(var(--black), .8);
 }
 
+.client {
+    color: rgba(var(--brand), .8);
+}
+
 #contact-form input,
 #contact-form textarea {
     color: rgba(var(--black), 1);
@@ -427,6 +431,16 @@ header {
     /* outline: none; */
     border: none;
 }
+
+
+/* Family  */
+/* .family-image img {
+    width: 100%;
+} */
+
+
+/* Testimonials  */
+
 
 /* Contact  */
 .p-bold {
@@ -1098,7 +1112,7 @@ a:active {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        grid-template: 4rem;
+            grid-template: 4rem;
         gap: 2rem;
 
     }
@@ -1858,7 +1872,7 @@ a:active {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        grid-template: 4rem;
+            grid-template: 4rem;
         gap: 4rem;
 
     }
@@ -2104,8 +2118,10 @@ a:active {
     }
 
     h2 {
-        font-size: 4rem;
-        line-height: 4.8rem;
+        /* font-size: 4rem;
+        line-height: 4.8rem; */
+        font-size: 3.2rem;
+        line-height: 4rem;
         margin-bottom: 1.6rem;
     }
 
@@ -2341,8 +2357,14 @@ a:active {
         align-items: center;
     }
 
+    .family-image,
+    .family-div {
+        width: 50%;
+    }
+
     .family-image img {
         border-radius: 4px;
+        width: 100%;
     }
 
     .family-div {
@@ -2351,6 +2373,11 @@ a:active {
         /* padding-top: 8rem; */
         /* padding-bottom: 8rem; */
         /* padding-right: 4rem; */
+    }
+
+    .family-div h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
     }
 
     .family-div h4 {
@@ -2418,6 +2445,11 @@ a:active {
         width: 50%;
     }
 
+    .welcome-left h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
     .welcome-left h4 {
         margin-bottom: .8rem;
     }
@@ -2454,11 +2486,20 @@ a:active {
         -ms-flex-pack: justify;
         justify-content: space-between;
         gap: 6rem;
-        margin-bottom: 4rem;
+        margin-bottom: 4.8rem;
     }
 
     .testimonial {
         max-width: 36rem;
+
+    }
+
+    .testimonial>p {
+        text-align: center;
+    }
+
+    .client {
+        text-align: center;
     }
 
     .quotes {
@@ -2467,7 +2508,7 @@ a:active {
     }
 
     .testimonial>p {
-        margin-bottom: 1.2rem;
+        margin-bottom: .8rem;
     }
 
     .testimonials-container .btn-secondary {
@@ -2495,6 +2536,11 @@ a:active {
     .insurance-left,
     .insurance-right {
         width: 50%;
+    }
+
+    .insurance-right h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
     }
 
     .insurance-p {
@@ -2534,6 +2580,9 @@ a:active {
     }
 
     .contact-grid h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+
         margin-bottom: 2.4rem;
     }
 
@@ -2581,6 +2630,11 @@ a:active {
     .book-grid-right,
     .book-grid-left {
         width: 50%;
+    }
+
+    .book-grid-left h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
     }
 
     .book-grid-left p {
@@ -2636,7 +2690,7 @@ a:active {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        grid-template: 4rem;
+            grid-template: 4rem;
         gap: 4rem;
 
     }
@@ -2748,6 +2802,11 @@ a:active {
         flex-wrap: wrap;
     }
 
+    .footer-grid h3 {
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+
     .footer-grid a {
         font-size: 1.6rem;
         line-height: 2.6rem;
@@ -2769,15 +2828,11 @@ a:active {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        gap: 1.6rem;
-    }
-
-    .footer-col-4 h4 {
-        margin-bottom: 1.6rem;
+        gap: 1.2rem;
     }
 
     .footer-address-div {
-        margin-top: 1.6rem;
+        margin-top: 1.2rem;
     }
 
     .btns-div {
