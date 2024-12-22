@@ -112,6 +112,10 @@ a {
     font-weight: 600;
 }
 
+.testimonial>p {
+    font-style: italic;
+}
+
 #book-form label {
     font-weight: 600;
     color: rgba(var(--black), .9);
