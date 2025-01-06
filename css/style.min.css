@@ -612,19 +612,23 @@ a:active {
     }
 
     .menu_item .menu-link {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem;
+        line-height: 2.6rem; */
+        font-size: 2rem;
         line-height: 2.6rem;
     }
 
 
     .dropdown a,
     .dropdown-content .dropdown-link {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .menu_item .btn-div a {
-        font-size: 1.4rem;
-        line-height: 1.4rem;
+        /* font-size: 1.4rem;
+        line-height: 1.4rem; */
+        font-size: 2rem;
+        line-height: 2rem;
     }
 
     .contact-info p {
@@ -1116,7 +1120,7 @@ a:active {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-            grid-template: 4rem;
+        grid-template: 4rem;
         gap: 2rem;
 
     }
@@ -1876,7 +1880,7 @@ a:active {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-            grid-template: 4rem;
+        grid-template: 4rem;
         gap: 4rem;
 
     }
@@ -2694,7 +2698,7 @@ a:active {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-            grid-template: 4rem;
+        grid-template: 4rem;
         gap: 4rem;
 
     }
@@ -2899,6 +2903,13 @@ a:active {
         bottom: 3.2rem;
         right: 3.2rem;
     }
+
+
+    /* Hover  */
+    .footer-col-1 a:hover,
+    .footer-col-2 a:hover {
+        text-decoration: underline;
+    }
 }
 
 
@@ -2948,10 +2959,11 @@ a:active {
         margin: 0rem 0;
     }
 
-    .menu_item a {
+    /* .menu_item a {
         font-size: 1.6rem;
         line-height: 2.6rem;
-    }
+    } */
+
 
     /* Hamburger  */
     .hamburger {
