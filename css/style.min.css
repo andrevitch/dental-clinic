@@ -766,7 +766,7 @@ a:active {
         margin: 0 auto 4rem;
         font-size: 1.4rem;
         line-height: 2.2rem;
-        color: rgba(var(--black), .65);
+        color: rgba(var(--black), .8);
     }
 
     .services-1-grid,
